@@ -18,6 +18,14 @@
         "entryPath": "/test-resources"
       },
       "description": "SAPUI5 Test Resources"
+    }, {
+    	"path": "/twitter",
+    	"target": {
+    		"type": "destination",
+    		"name": "dst_twitter_api",
+    		"entryPath": "/"
+    	},
+    	"description": "Twitter"
     }
   ],
   "sendWelcomeFileRedirect": true
