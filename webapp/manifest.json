@@ -30,7 +30,10 @@
 			"tablet": true,
 			"phone": true
 		},
-		"supportedThemes": ["sap_hcb", "sap_belize"]
+		"supportedThemes": [
+			"sap_hcb",
+			"sap_belize"
+		]
 	},
 	"sap.ui5": {
 		"config": {
@@ -66,9 +69,11 @@
 			}
 		},
 		"resources": {
-			"css": [{
-				"uri": "style/main.css"
-			}]
+			"css": [
+				{
+					"uri": "style/main.css"
+				}
+			]
 		},
 		"routing": {
 			"config": {
@@ -87,7 +92,10 @@
 				{
 					"name": "home",
 					"pattern": "",
-					"target": ["appHeader", "myPage"]
+					"target": [
+						"appHeader",
+						"myPage"
+					]
 				}
 			],
 			"targets": {
@@ -111,5 +119,9 @@
 				}
 			}
 		}
+	},
+	"sap.platform.hcp": {
+		"uri": "webapp",
+		"_version": "1.1.0"
 	}
 }

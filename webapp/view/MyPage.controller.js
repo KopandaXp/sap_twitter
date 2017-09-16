@@ -66,15 +66,15 @@ sap.ui.define([
 				async: false,
 				 beforeSend: function(req) {
 				 	req.setRequestHeader("Accept", "*/*");
-				 	req.setRequestHeader("Connection", "close");
-				 	req.setRequestHeader("User-Agent", "OAuth gem v0.4.4");
+				 	// req.setRequestHeader("Connection", "close");
+				 	// req.setRequestHeader("User-Agent", "OAuth gem v0.4.4");
 				 	req.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-				 	req.setRequestHeader("Content-Length", "76");
-				 	req.setRequestHeader("Host", "api.twitter.com");
+				 	// req.setRequestHeader("Content-Length", "76");
+				 	// req.setRequestHeader("Host", "api.twitter.com");
 				 	req.setRequestHeader("status", "Hello world");
 				 	req.setRequestHeader("Authorization", 
 					 	'OAuth ' +
-						'oauth_consumer_key="mjpp4cUeysMM0ruMjjPCjJMZc",' +
+						'oauth_consumer_key="",' +
 						'oauth_nonce="' + btoa(Math.random()) + '",' +
 						'oauth_signature="' + sOAuthSignature + '",' +
 						'oauth_signature_method="HMAC-SHA1",' +

@@ -14,7 +14,6 @@ function(
 ) {
 	"use strict";
 
-// goDataModel.read("/BW_MTV_PORTAL_RATE(ICalmonth=201704,IEmployee=00000000)", {success: function () {debugger;}, error: function () {debugger;}})
 	return UIComponent.extend("sapTwitter.Component", {
 		metadata: {
 			manifest: "json"
