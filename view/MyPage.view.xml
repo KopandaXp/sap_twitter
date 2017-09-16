@@ -9,7 +9,7 @@
 	 showHeader="false"
 	 width="100%">
 		<content>
-			<Text text="Hello world!"/>
+			<Text text="Hello world!!!"/>
 		</content>
 	</Page>
 </mvc:View>
