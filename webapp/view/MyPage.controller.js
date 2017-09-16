@@ -21,6 +21,17 @@ sap.ui.define([
 		},
 		onAnyRouteMatched: function (oEvent) {
 			
+		},
+		onPress: function (oEvent) {
+			$.ajax({
+				url: "http://api.twitter.com",
+				success: function () {
+					console.log("success", arguments);
+				},
+				error: function () {
+					console.log("error", arguments);
+				}
+			});
 		}
 	});
 return oController;
